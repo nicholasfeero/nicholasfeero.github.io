@@ -27,9 +27,7 @@ To showcase my technical skills, abilities, and proficiency in computer science,
 
 A code review is conducted prior to any modifications and enhancements. My code review's purpose is to observe my artifacts' initial code, functionality, and output. Once I've examined the state of my initial artifacts, I provide an in-depth code analysis that targets areas for improvement such as structure, logic, efficiency, functionality, security, testing, commenting, and document. From here, I provide a walkthrough of the planned enhancements for each artifact and how they address the issues that were discovered during the code review.
 
-You can watch my code review by clicking [here](./https://www.youtube.com/watch?v=GbcLJzQN2Fo).
-
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/GbcLJzQN2Fo?si=eKitFzSIg6sbfzRP](https://www.youtube.com/watch?v=GbcLJzQN2Fo)" allowfullscreen></iframe>
+You can watch my code review by clicking [here](https://www.youtube.com/watch?v=GbcLJzQN2Fo).
 
 ### Artifact #1: Software Design and Engineering
 
