@@ -22,3 +22,36 @@ To showcase my technical skills, abilities, and proficiency in computer science,
 **Course Outcome 4:** Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. The aspects of my ePortfolio that address this course outcome are the Software Design and Engineering artifact, the Algorithms and Data Structures artifact, and the Databases artifact. My Software Design and Engineering artifact demonstrates my innovate techniques for screen navigation, permission handling, and theme customization. My Algorithms and Data Structures artifact show my core understanding of unit testing and the ability to translate my skills in development from one language to another while remaining proficient across multiple IDEs. My Databases artifact shows my ability to display data in multiple innovative methods while maintaining a robust functionality of the code.
 
 **Course Outcome 5:** Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources. The aspect of my ePortfolio that address this course outcome is the Databases artifact. In this artifact, I determined where vulnerabilities were present in my code, provided local solutions for security vulnerabilities, and outlined the functionality of my code chunks so maintenance can occur without unintended effects.
+
+### Code Review
+
+A code review is conducted prior to any modifications and enhancements. My code review's purpose is to observe my artifacts' initial code, functionality, and output. Once I've examined the state of my initial artifacts, I provide an in-depth code analysis that targets areas for improvement such as structure, logic, efficiency, functionality, security, testing, commenting, and document. From here, I provide a walkthrough of the planned enhancements for each artifact and how they address the issues that were discovered during the code review.
+
+You can watch my code review by clicking [here](./https://www.youtube.com/watch?v=GbcLJzQN2Fo).
+
+### Artifact #1: Software Design and Engineering
+
+The first artifact of my ePortfolio is a mobile daily weight tracking application. In this application, users create an account and log in to experience a daily weight tracking table, an SMS notification screen, and customizable settings to change their username, password, theme, and notification preference.
+
+<img width="325" height="695" alt="WeightState Image" src="https://github.com/user-attachments/assets/d6853541-a9ed-4cb2-979e-3c3d5efec12e" />
+
+Click [here](./https://github.com/nicholasfeero/nicholasfeero.github.io/tree/Software-Design-and-Engineering) to view my initial and enhanced Software Design and Engineering artifact with my enhancement narrative.
+
+### Artifact #2: Algorithms and Data Structures
+
+The second artifact of my ePortfolio contains unit testing methods. In this artifact, I translated JUnit tests to Google Tests by utilizing different IDEs to successfully implement the appropriate functionality.
+
+<img width="474" height="528" alt="Unit Test Image" src="https://github.com/user-attachments/assets/4de3ee4a-f725-4add-8bcd-2903f6bbc8d0" />
+
+Click [here](./https://github.com/nicholasfeero/nicholasfeero.github.io/tree/Algorithms-and-Data-Structures) to view my initial and enhanced Algorithms and Data Structures artifact with my enhancement narrative.
+
+### Artifact #3: Databases
+
+The third and final artifact of my ePortfolio is a Dash application that displays a data table, pie chart, and geographical map of animals at an animal shelter. From this data, the user can filter the database based pre-determined characteristics that will display the animals that fit the criteria.
+
+<img width="1913" height="904" alt="Animal Shelter Image" src="https://github.com/user-attachments/assets/be6a8ad8-f0e0-4d8d-a6bc-ec0eba83f36b" />
+
+Click [here](./https://github.com/nicholasfeero/nicholasfeero.github.io/tree/Databases) to view my initial and enhanced Databases artifact with my enhancement narrative.
+
+
+
