@@ -35,7 +35,7 @@ The first artifact of my ePortfolio is a mobile daily weight tracking applicatio
 
 <img width="325" height="695" alt="WeightState Image" src="https://github.com/user-attachments/assets/d6853541-a9ed-4cb2-979e-3c3d5efec12e" />
 
-Click [here](./https://github.com/nicholasfeero/nicholasfeero.github.io/tree/Software-Design-and-Engineering) to view my initial and enhanced Software Design and Engineering artifact with my enhancement narrative.
+Click [here](https://github.com/nicholasfeero/nicholasfeero.github.io/tree/Software-Design-and-Engineering) to view my initial and enhanced Software Design and Engineering artifact with my enhancement narrative.
 
 ### Artifact #2: Algorithms and Data Structures
 
@@ -43,7 +43,7 @@ The second artifact of my ePortfolio contains unit testing methods. In this arti
 
 <img width="474" height="528" alt="Unit Test Image" src="https://github.com/user-attachments/assets/4de3ee4a-f725-4add-8bcd-2903f6bbc8d0" />
 
-Click [here](./https://github.com/nicholasfeero/nicholasfeero.github.io/tree/Algorithms-and-Data-Structures) to view my initial and enhanced Algorithms and Data Structures artifact with my enhancement narrative.
+Click [here](https://github.com/nicholasfeero/nicholasfeero.github.io/tree/Algorithms-and-Data-Structures) to view my initial and enhanced Algorithms and Data Structures artifact with my enhancement narrative.
 
 ### Artifact #3: Databases
 
@@ -51,7 +51,7 @@ The third and final artifact of my ePortfolio is a Dash application that display
 
 <img width="1913" height="400" alt="Animal Shelter Image" src="https://github.com/user-attachments/assets/be6a8ad8-f0e0-4d8d-a6bc-ec0eba83f36b" />
 
-Click [here](./https://github.com/nicholasfeero/nicholasfeero.github.io/tree/Databases) to view my initial and enhanced Databases artifact with my enhancement narrative.
+Click [here](https://github.com/nicholasfeero/nicholasfeero.github.io/tree/Databases) to view my initial and enhanced Databases artifact with my enhancement narrative.
 
 
 
