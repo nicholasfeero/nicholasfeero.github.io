@@ -1,0 +1,41 @@
+from pymongo import MongoClient, errors
+
+# Configure OS routines
+import os
+
+# === Configuration ===
+USERNAME = os.getenv('MONGO_USERNAME')
+PASSWORD = os.getenv('MONGO_PASSWORD')
+HOST = "localhost"
+PORT = 27017
+DB_NAME = "aac"
+
+# Paths to your PEM files
+TLS_CA_FILE = "C:/MongoData/mongo-certs/ca.pem"
+TLS_CLIENT_FILE = "C:/MongoData/mongo-certs/client.pem"
+
+try:
+    # Create a TLS-enabled MongoClient
+    client = MongoClient(
+        f"mongodb://{USERNAME}:{PASSWORD}@{HOST}:{PORT}/?authSource={DB_NAME}&tls=true",
+        tlsCAFile=TLS_CA_FILE,
+        tlsCertificateKeyFile=TLS_CLIENT_FILE,
+        serverSelectionTimeoutMS=5000  # wait max 5 seconds
+    )
+
+    # Attempt to retrieve server info (forces handshake)
+    info = client.server_info()  # Will raise exception if TLS/auth fails
+    print("TLS connection successful!")
+    print(f"MongoDB version: {info['version']}")
+    
+except errors.ServerSelectionTimeoutError as e:
+    print("Connection failed (server selection / TLS handshake failed):")
+    print(e)
+
+except errors.ConfigurationError as e:
+    print("Configuration error (TLS/certificates problem):")
+    print(e)
+
+except Exception as e:
+    print("Unexpected error:")
+    print(e)
