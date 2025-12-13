@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- App Default Theme -->
+    <style name="AppCustom_AppDefault" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#205566</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">#000000</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:colorBackground">#78F4AD</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Light Theme -->
+    <style name="AppCustom_Light" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#205566</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">#000000</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:colorBackground">#FBF7F7</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="AppCustom_Dark" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#205566</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:colorBackground">#121212</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- System Default -->
+    <style name="AppCustom_System" parent="Theme.Material3.DayNight.NoActionBar" />
+</resources>
