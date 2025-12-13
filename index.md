@@ -49,7 +49,7 @@ Click [here](./https://github.com/nicholasfeero/nicholasfeero.github.io/tree/Alg
 
 The third and final artifact of my ePortfolio is a Dash application that displays a data table, pie chart, and geographical map of animals at an animal shelter. From this data, the user can filter the database based pre-determined characteristics that will display the animals that fit the criteria.
 
-<img width="1913" height="904" alt="Animal Shelter Image" src="https://github.com/user-attachments/assets/be6a8ad8-f0e0-4d8d-a6bc-ec0eba83f36b" />
+<img width="1913" height="400" alt="Animal Shelter Image" src="https://github.com/user-attachments/assets/be6a8ad8-f0e0-4d8d-a6bc-ec0eba83f36b" />
 
 Click [here](./https://github.com/nicholasfeero/nicholasfeero.github.io/tree/Databases) to view my initial and enhanced Databases artifact with my enhancement narrative.
 
