@@ -29,6 +29,8 @@ A code review is conducted prior to any modifications and enhancements. My code 
 
 You can watch my code review by clicking [here](./https://www.youtube.com/watch?v=GbcLJzQN2Fo).
 
+<iframe width="560" height="315" src="[https://www.youtube.com/embed/GbcLJzQN2Fo?si=eKitFzSIg6sbfzRP](https://www.youtube.com/watch?v=GbcLJzQN2Fo)" allowfullscreen></iframe>
+
 ### Artifact #1: Software Design and Engineering
 
 The first artifact of my ePortfolio is a mobile daily weight tracking application. In this application, users create an account and log in to experience a daily weight tracking table, an SMS notification screen, and customizable settings to change their username, password, theme, and notification preference.
