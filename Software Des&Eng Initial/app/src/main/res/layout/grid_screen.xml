@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dataRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="432dp"
+        android:layout_weight="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <EditText
+        android:id="@+id/inputDate"
+        android:layout_width="153dp"
+        android:layout_height="67dp"
+        android:layout_weight="1"
+        android:autofillHints=""
+        android:hint="@string/enter_date"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/inputWeight"
+        app:layout_constraintTop_toBottomOf="@+id/dataRecyclerView"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="62dp"
+        android:layout_height="59dp"
+        android:enabled="false"
+        android:text="@string/back_button"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <Button
+        android:id="@+id/buttonSMS"
+        android:layout_width="62dp"
+        android:layout_height="59dp"
+        android:enabled="false"
+        android:text="@string/sms"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="85dp"
+        android:layout_height="78dp"
+        android:text="@string/add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/inputDate"
+        app:layout_constraintTop_toBottomOf="@+id/dataRecyclerView"
+        app:layout_constraintVertical_bias="0.33" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="134dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="145dp"
+        android:text="@string/app_title"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSMS"
+        app:layout_constraintStart_toEndOf="@+id/buttonBack"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <TextView
+        android:id="@+id/instructionalNote"
+        android:layout_width="338dp"
+        android:layout_height="23dp"
+        android:hint="@string/instructional_note"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <EditText
+        android:id="@+id/inputWeight"
+        android:layout_width="153dp"
+        android:layout_height="67dp"
+        android:layout_weight="1"
+        android:autofillHints=""
+        android:hint="@string/enter_weight"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dataRecyclerView"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <EditText
+        android:id="@+id/inputDailyIntake"
+        android:layout_width="153dp"
+        android:layout_height="67dp"
+        android:layout_weight="1"
+        android:autofillHints=""
+        android:hint="@string/enter_daily_intake"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dataRecyclerView"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <EditText
+        android:id="@+id/inputExercise"
+        android:layout_width="153dp"
+        android:layout_height="67dp"
+        android:layout_weight="1"
+        android:autofillHints=""
+        android:hint="@string/enter_exercise"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dataRecyclerView"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="63dp"
+        android:layout_height="24dp"
+        android:layout_weight="1"
+        android:text="@string/date"
+        app:layout_constraintBottom_toTopOf="@+id/dataRecyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toEndOf="@+id/weightText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/dailyIntakeText"
+        android:layout_width="68dp"
+        android:layout_height="39dp"
+        android:layout_weight="1"
+        android:text="@string/daily_intake"
+        app:layout_constraintBottom_toTopOf="@+id/dataRecyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.358"
+        app:layout_constraintStart_toEndOf="@+id/weightText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/exerciseText"
+        android:layout_width="63dp"
+        android:layout_height="23dp"
+        android:layout_weight="1"
+        android:text="@string/exercise"
+        app:layout_constraintBottom_toTopOf="@+id/dataRecyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toEndOf="@+id/weightText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/weightText"
+        android:layout_width="60dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="121dp"
+        android:layout_weight="1"
+        android:text="@string/daily_weight"
+        app:layout_constraintBottom_toTopOf="@+id/dataRecyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.005"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Feero_CS-360 Project Three</string>
+    <string name="returning_greeting_text">Welcome, %s!</string>
+    <string name="new_greeting_text">Welcome to the app, %s!</string>
+    <string name="submit_button">Submit</string>
+    <string name="enter_username">Username</string>
+    <string name="enter_password">Password</string>
+    <string name="new_user_button">Create Account</string>
+    <string name="new_user_text">New User?</string>
+    <string name="back_button">&lt;</string>
+    <string name="daily_weight">Daily Weight</string>
+    <string name="date">Date</string>
+    <string name="daily_intake">Daily Intake</string>
+    <string name="exercise">Exercise</string>
+    <string name="enter_weight">Enter weight</string>
+    <string name="enter_date">Enter date</string>
+    <string name="enter_daily_intake">Enter daily intake</string>
+    <string name="enter_exercise">Enter exercise</string>
+    <string name="add">Add</string>
+    <string name="app_title">WeightState</string>
+    <string name="sms">SMS</string>
+    <string name="enter_phone_number">Enter 10-digit phone number</string>
+    <string name="enter_message">Enter message</string>
+    <string name="sms_notification">Send Notifications via SMS</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="logo">Logo</string>
+    <string name="instructional_note">Interact with any value on the grid to change it!</string>
+</resources>
